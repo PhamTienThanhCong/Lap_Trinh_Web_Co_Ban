@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chọn tua</title>
+</head>
+<body>
+    <form action="" >
+        <table style="background-color: rgb(206, 236, 122);" border="1" cellspacing="0">
+            <tr>
+                <caption>
+                    <h1>
+                        Đăng kí du lịch
+                    </h1>
+                </caption>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Họ và tên</label>
+                </td>
+                <td>
+                    <input type="text" name="name" id="name" placeholder="Họ và tên" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="diachi">Địa chỉ</label>
+                </td>
+                <td>
+                    <input type="text" name="diachi" id="diachi" placeholder="Địa chỉ" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phoneNumber">Điện Thoại</label>
+                </td>
+                <td>
+                    <input type="number" id="phoneNumber" name="phoneNumber" placeholder="Số điện thoại" required min="0">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Khách Việt Nam</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="khachviet" value="1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Chọn tour</label>
+                </td>
+                <td>
+                    <select name="tourpick" id="tourpick">
+                        <option value="bmt01">buôn mê thuột</option>
+                        <option value="hcm01">Hồ chí minh</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Phương tiện</label>
+                </td>
+                <td>
+                    <input type="radio" name="phuongtien" value="maybay" id="maybay"> 
+                    <label for="maybay">Máy bay</label>
+                    <input type="radio" name="phuongtien" value="oto" id="oto"> 
+                    <label for="oto"> Ô tô</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label  for="">Số lượng đoàn khách</label>
+                    <br>
+                    <label for="nguoilon">Người lớn</label>
+                    <input type="number" name="nguoilon" id="nguoilon" required min="0">
+                    <label for="treem">Trẻ em</label>
+                    <input type="number" name="treem" id="treem" required min="0">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ghichuthem">ghi chú thêm</label>
+                </td>
+                <td>
+                    <textarea name="ghichuthem" id="ghichuthem" cols="40" rows="2"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <button>Đồng ý</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    Bạn đã đăng kí thành công
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
