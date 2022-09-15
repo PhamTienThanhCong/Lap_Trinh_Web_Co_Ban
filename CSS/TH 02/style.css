@@ -1,0 +1,21 @@
+.container{
+    width: 400px;
+}
+.text-green{
+    color: rgb(75, 250, 75);
+}
+.paragrap{
+    width: 100%;
+}
+.bg-tim{
+    background-color: blueviolet;
+}
+.text-tim{
+    color: blueviolet;
+}
+.bg-yelow{
+    background-color: yellow;
+}
+.text-bold{
+    font-weight:bold;
+}
