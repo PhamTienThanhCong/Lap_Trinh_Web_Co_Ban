@@ -1,0 +1,23 @@
+.container{
+    text-align: left;
+}
+
+.title{
+    color: blue;
+}
+
+p{
+    font-size: 16px;
+}
+
+.chu-nghieng{
+    font-style: italic;
+}
+
+.chu-dam{
+    font-weight: bold;
+}
+
+.boi-vang{
+    background-color: yellow;
+}
