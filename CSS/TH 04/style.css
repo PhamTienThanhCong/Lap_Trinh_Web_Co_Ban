@@ -1,0 +1,25 @@
+.container{
+    width: 500px;
+    background-color: #3388d8;
+    padding: 15px;
+    border-radius: 15px;
+}
+.title{
+    margin-top: 0;
+    color: rgb(243, 222, 38);
+}
+.paragraph{
+    background-color: green;
+    color: yellow;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border: 7px dashed red;
+    margin-top: 15px;
+}
+.paragraph img{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 10px;
+}
