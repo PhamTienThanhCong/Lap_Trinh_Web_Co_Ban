@@ -17,9 +17,9 @@
     border: 7px dashed red;
     margin-top: 15px;
 }
-.paragraph img{
-    width: 60px;
-    height: 60px;
+.img{
+    width: 100px;
+    height: 100px;
     float: left;
     margin-right: 10px;
 }
