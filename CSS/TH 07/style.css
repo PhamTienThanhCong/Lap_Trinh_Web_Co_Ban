@@ -1,0 +1,40 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 400px;
+    border-top: 1px solid #000;
+}
+
+.box-img{
+    width: 100%;
+    border: 4px solid #ccc;
+}
+
+.list-review{
+    margin: 10px 0;
+    padding-left: 4px;
+}
+
+.list-review li{
+    padding: 5px 3px;
+    margin-bottom: 3px;
+    background-color: #ccc;
+    font-size: 18px;
+    list-style-position: inside;
+    list-style-type: circle;
+}
+
+a{
+    text-decoration: none;
+}
