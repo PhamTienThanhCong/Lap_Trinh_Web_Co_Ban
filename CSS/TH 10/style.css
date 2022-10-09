@@ -1,0 +1,106 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Geneva, Verdana, sans-serif
+}
+body{
+    width: 100%;
+}
+
+/* img background */
+.content{
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -55%);
+    border: 10px solid rgb(4, 146, 4);
+    overflow: hidden;
+}
+.ads-background{
+    width: 400px;
+    height: 550px;
+    background: #000;
+    object-fit: cover;
+    object-position: center;
+}
+.ads-background img{
+    width: 100%;
+    height: 100%;
+}
+
+/* title */
+.main-title,.content-title{
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+    top: -5px;
+}
+
+.main-title{
+    width: 290px;
+    height: calc(50% + 35px);
+    border: 3px solid rgb(4, 146, 4);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.content-title{
+    width: 250px;
+    height: calc(100% - 20px);
+    background-color: rgb(4, 146, 4);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 40%;
+}
+/* title text */
+.content-text{
+    margin-top: 30px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.content-text .span1, .content-text .span2{
+    width: 33%;
+    display: inline-block;
+    margin-top: 15px;
+}
+.content-text .span1{
+    text-align: right;
+    font-size: 30px;
+}
+.content-text .span2{
+    width: 33%;
+    text-align: left;
+    font-size: 80px;
+}
+.content-text .span3{
+    width: 20%;
+    font-size: 35px;
+}
+
+.content-text .buy-now{
+    font-size: 20px;
+    display: inline-block;
+    background-color: rgb(250, 223, 71);
+    border-radius: 15px;
+    padding: 5px 20px;
+    color: rgb(4, 146, 4);
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.content-img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.content-img img{
+    width: 100%;
+}
