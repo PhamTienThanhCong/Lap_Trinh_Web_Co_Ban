@@ -1,0 +1,98 @@
+/* reset css */
+*{
+    margin:0;
+    padding:0;
+    /* box-sizing: border-box; */
+    /* font-size: 16px; */
+}
+
+@keyframes example {
+    0%   {
+        top: 50%;
+        left: 0%;
+        transform: translateY(-50%);
+    }
+    25%   {
+        top: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    50%   {
+        top: 50%;
+        left: 100%;
+        transform: translateX(-100%) translateY(-50%);
+    }
+    75%   {
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-100%);
+    }
+    100%   {
+        top: 50%;
+        left: 0%;
+        transform: translateY(-50%);
+    }
+  }
+
+/* draw a rhombus */
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+
+.ball, .ball2, .ball3{
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+    background-color: tomato;
+    border-radius: 50%;
+    position: fixed;
+    animation: example 10s linear infinite;
+}
+.ball{
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+.ball2{
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+}
+.ball3{
+    animation-delay: 0.15s;
+    animation-iteration-count: infinite;
+}
+
+.ball img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@keyframes circle-css{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.circle-animation,.circle-animation-hidden{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 20px solid white;
+}
+
+.circle-animation-hidden{
+    position: absolute;
+    border-top-color: red;
+    animation: circle-css 3s linear infinite;
+}
