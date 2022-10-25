@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.big-title{
+    width: 100%;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(19, 95, 63);
+    background-color: lavender;
+    padding: 10px 50px;
+}
+
+.nav{
+    width: 100%;
+    background-color: rgb(19, 95, 63);
+    padding: 0px 20px;
+    list-style: none;
+    display: flex;
+}
+
+.nav li{
+    padding: 10px 20px;
+    border-right: 1px solid rgba(15, 156, 145, 0.616);
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+/* end header */
+
+/* main */
+.main{
+    margin-top: 125px;
+    width: 100%;
+    padding: 0 30px;
+}
+.main1{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.main1-left{
+    width: 70%;
+}
+.news-hot{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.top-new{
+    width:53%;
+}
+.news{
+    width: 43%;
+    height: 90px;
+}
+.top-new img{
+    width: 100%;
+}
+.top-new h2 a{
+    color: black;
+    font-size: 20px;
+}
+.top-new h2{
+    padding-bottom: 6px;
+}
+.top-new span{
+    color: rgb(43, 38, 38);
+    font-size: 15px;
+}
+.nav-news{
+    width: 100%;
+    list-style: none;
+    margin-top: -10px;
+}
+.nav-news li{
+    display: flex;
+    /* border bottom style dot */
+    padding: 10px 0;
+    border-bottom: 1px dotted rgb(65, 59, 59);
+}
+.nav-news li img{
+    width: 40%;
+}
+.nav-news li span{
+    margin-left: 10px;
+}
+
+.new-cold{
+    margin-top: 30px;
+    width: 100%;
+    list-style: none;
+}
+
+.new-cold li{
+    width: 100%;
+    display: flex;
+    border: 1px solid rgba(102, 93, 93, 0.507);
+    background-color: rgba(202, 186, 186, 0.336);
+    margin-bottom: 20px;
+}
+
+.new-cold li img{
+    width: 30%;
+    height: 150px;
+}
+.new-cold li .title-new{
+    margin-left: 20px;
+    padding: 20px 0;
+}
+.new-cold li .title-new span{
+    color: rgb(80, 73, 73);
+    font-size: 15px;
+}
+.new-cold li .title-new p{
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.main1-right{
+    width: 27%;
+}
+.tham-do{
+    width: 100%;
+}
+.tham-do {
+    background-color: rgba(161, 161, 161, 0.24);
+    padding: 10px;
+    border-top: 2px solid rgb(19, 95, 63);
+}
+.title-slide {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: rgb(19, 95, 63);
+}
+.tham-do form{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.tham-do form p{
+    padding-bottom: 10px;
+}
+.input{
+    margin-bottom: 10px;
+}
+.btn-submit{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    padding: 10px;
+    background-color: rgb(101, 102, 102);
+    color: white;
+    width: 100px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+.btn2{
+    background-color: red;
+}
+.lien-ket{
+    width: 100%;
+    background-color: rgba(161, 161, 161, 0.24);
+    padding: 10px;
+    border-top: 2px solid rgb(19, 95, 63);
+    margin-top: 50px;
+}
+.lien-ket ul{
+    list-style:circle;
+    padding-left: 40px;
+}
+.lien-ket ul li{
+    padding: 10px 0;
+    font-size: 17px;
+}
