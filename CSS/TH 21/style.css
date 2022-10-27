@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.header{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(250, 19, 19);
+    font-size: 20px;
+    top: 0;
+}
+
+.container{
+    margin-top: 43px;
+    width: 100%;
+    display: flex;
+}
+
+.aslde-1{
+    width: 20%;
+    background-color: rgb(173, 173, 13);
+    padding: 10px;
+    text-align: center;
+}
+
+.content{
+    width: 60%;
+    background-color: rgb(0, 174, 255);
+    padding: 20px 10px;
+}
+
+.aslde-2{
+    width: 20%;
+    background-color: palevioletred;
+    padding: 10px;
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(250, 19, 19);
+    font-size: 20px;
+}
+
+/* css tablet */
+@media screen and (max-width: 768px) and (min-width: 481px){
+    .container{
+        flex-wrap: wrap;
+    }
+    .aslde-1{
+        width: 40%;
+    }
+    .content{
+        width: 60%;
+    }
+    .aslde-2{
+        width: 100%;
+        height: 100px;
+    }
+}
+
+/* css mobile */
+@media screen and (max-width: 480px){
+    .container{
+        flex-direction: column;
+    }
+    .content{
+        width: 100%;
+    }
+    .aslde-1, .aslde-2{
+        width: 100%;
+        height: 100px;
+    }
+}
