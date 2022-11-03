@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS co ban</title>
+</head>
+<body>
+    <!-- form input have name and 2 button: log and clear -->
+    <form action="#" method="get">
+        <input type="number" id="bien_a" placeholder="nhap a"> X
+        +
+        <input type="number" id="bien_b" placeholder="nhap b">
+        = 0
+        <button type="button" onclick="tinh_toan()">
+            Tinh Toan
+        </button>
+    </form>
+    <div>
+        Ket Qua x = <span></span>
+    </div>
+</body>
+<script>
+    function tinh_toan(){
+        a = document.getElementById("bien_a").value;
+        b = document.getElementById("bien_b").value;
+        //solve first order equation a*x+b=0
+
+        // check a || b null
+        let x = 0;
+        if (a == '' || b == ''){
+            alert("a va b khum dc de trong :3")
+            x = "Loi nhap"
+        }else if (b == 0){
+            x = 0;
+        }else if(a == 0 && b != 0){
+            x = "PT vo nghiem"
+        }else if(a == 0 && b == 0){
+            x = "PT vo so nghiem"
+        }else{
+            x = -b/a;
+        }
+        document.getElementsByTagName("span")[0].innerHTML = x;
+    }
+</script>
+</html>
