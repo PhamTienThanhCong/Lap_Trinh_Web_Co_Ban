@@ -1,0 +1,44 @@
+.controller{
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.main{
+    width: 410px;
+    background-color: aqua;
+}
+.screen{
+    width: 100%;
+}
+.screen input{
+    width: 100%;
+    padding: 10px;
+}
+.list-btn{
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+#number{
+    width: 310px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn{
+    width: 100px;
+    padding: 10px 0px;
+    margin: 0;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid rgb(94, 91, 91);
+    cursor: pointer;
+}
+#option{
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+}
