@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* header */
@@ -14,27 +15,36 @@ header{
 
 .big-title{
     width: 100%;
-    font-size: 40px;
     text-transform: uppercase;
     color: rgb(19, 95, 63);
-    background-color: lavender;
-    padding: 10px 50px;
+    background-color: white;
+    padding: 0px 50px;
+    padding-top: 6px;
+}
+
+.big-title img{
+    height: 50px;
 }
 
 .nav{
     width: 100%;
-    background-color: rgb(19, 95, 63);
-    padding: 0px 20px;
+    background-color: rgb(34, 19, 119);
+    padding: 0px 50px;
     list-style: none;
     display: flex;
 }
 
 .nav li{
-    padding: 10px 20px;
-    border-right: 1px solid rgba(15, 156, 145, 0.616);
     text-transform: uppercase;
+    padding: 15px 20px;
 }
 
+.nav li:hover{
+    background-color: rgb(61, 46, 146);
+}
+.active{
+    background-color: rgb(61, 46, 146);
+}
 a{
     text-decoration: none;
     color: white;
@@ -55,26 +65,36 @@ a{
     justify-content: space-between;
 }
 .main1-left{
-    width: 70%;
+    width: 65%;
 }
 .news-hot{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
 }
 .top-new{
-    width:53%;
+    width:100%;
 }
 .news{
-    width: 43%;
-    height: 90px;
-}
-.top-new img{
     width: 100%;
+}
+.privew-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(156, 213, 221);
+}
+.privew-img img{
+    width: 50%;
+}
+.privew-img p{
+    padding: 10px;
+    font-size: 18px;
 }
 .top-new h2 a{
     color: black;
-    font-size: 20px;
+    font-size: 26px;
 }
 .top-new h2{
     padding-bottom: 6px;
@@ -86,19 +106,22 @@ a{
 .nav-news{
     width: 100%;
     list-style: none;
-    margin-top: -10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 .nav-news li{
-    display: flex;
+    width: 30%;
     /* border bottom style dot */
     padding: 10px 0;
-    border-bottom: 1px dotted rgb(65, 59, 59);
 }
 .nav-news li img{
-    width: 40%;
+    width: 100%;
 }
-.nav-news li span{
-    margin-left: 10px;
+.nav-news li a{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .new-cold{
@@ -133,7 +156,7 @@ a{
     padding-top: 20px;
 }
 .main1-right{
-    width: 27%;
+    width: 33%;
 }
 .tham-do{
     width: 100%;
