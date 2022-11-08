@@ -219,21 +219,64 @@ a{
 .title-slide{
     padding: 10px 30px;
     font-weight: 500;
+    margin-top: 10px;
     /* upcase */
     text-transform: uppercase;
 }
 .lien-ket{
     width: 100%;
     background-color: rgba(161, 161, 161, 0.24);
-    padding: 10px;
-    border-top: 2px solid rgb(19, 95, 63);
+    border: 2px solid rgb(146, 160, 154);
+    border-radius: 7px;
     margin-top: 50px;
 }
 .lien-ket ul{
     list-style:none;
     padding-left: 40px;
+    padding: 0;
 }
 .lien-ket ul li{
     padding: 10px 0;
     font-size: 17px;
+}
+.calender li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-bottom: 1px dotted rgba(78, 66, 66, 0.397);
+}
+
+.calender li span{
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+}
+.calender li a{
+    width: 78%;
+    display: inline-block;
+    color: rgb(42, 42, 238);
+    padding: 5px;
+    /* upcase */
+}
+
+.menu-calender span{
+    padding: 5px;
+    background-color: rgb(189, 214, 218);
+    border-radius: 4px;
+}
+.menu-calender a{
+    background-color: rgb(107, 107, 221);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 500;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.calender-list span{
+    border-right: 1px dotted rgba(78, 66, 66, 0.397);
+    font-weight: 500;
+}
+.calender-list a{
+    font-weight: 500;
 }
