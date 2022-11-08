@@ -163,33 +163,45 @@ a{
 }
 .tham-do {
     background-color: rgba(161, 161, 161, 0.24);
-    padding: 10px;
-    border-top: 2px solid rgb(19, 95, 63);
-}
-.title-slide {
-    text-transform: uppercase;
-    font-size: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    color: rgb(19, 95, 63);
+    padding: 10px 30px;
 }
 .tham-do form{
-    background-color: white;
     padding: 10px;
     padding-bottom: 20px;
     font-size: 18px;
 }
+.tham-do form label{
+    margin-right: 10px;
+}
 .tham-do form p{
     padding-bottom: 10px;
-}
-.input{
-    margin-bottom: 10px;
 }
 .btn-submit{
     width: 100%;
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
+}
+/* search width button search */
+.search{
+    width: 100%;
+    position: relative;
+}
+.search input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+.search button{
+    padding: 5px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(75, 66, 66);
+    color: white;
+    position: absolute;
+    right: 5px;
+    top: 6px;
 }
 .btn{
     padding: 10px;
@@ -203,6 +215,13 @@ a{
 .btn2{
     background-color: red;
 }
+/* lịch sự kiện */
+.title-slide{
+    padding: 10px 30px;
+    font-weight: 500;
+    /* upcase */
+    text-transform: uppercase;
+}
 .lien-ket{
     width: 100%;
     background-color: rgba(161, 161, 161, 0.24);
@@ -211,7 +230,7 @@ a{
     margin-top: 50px;
 }
 .lien-ket ul{
-    list-style:circle;
+    list-style:none;
     padding-left: 40px;
 }
 .lien-ket ul li{
