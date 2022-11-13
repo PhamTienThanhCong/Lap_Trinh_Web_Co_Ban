@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>Trang chủ</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <a href="#">
+                <li>
+                    Demo Spiral
+                    <i class='icon bx bxs-down-arrow'></i>
+                </li>
+            </a>
+            <a href="#">
+                <li>Nội bộ</li>
+            </a>
+            <a href="#" class="active">
+                <li>Nhân sự</li>
+            </a>
+            <a href="#">
+                <li>Bán hàng</li>
+            </a>
+            <a href="#">
+                <li>Khách hàng</li>
+            </a>
+            <a href="#">
+                <li>Quản lý khoa</li>
+            </a>
+            <a href="#">
+                <li>Sổ quỹ</li>
+            </a>
+        </ul>
+        <ul>
+            <a href="#">
+                <li>
+                    <i class='big-icon bx bxs-bell'></i>
+                </li>
+            </a>
+            <a href="#">
+                <li>
+                    Huỳnh Văn Sự
+                    <i class='icon bx bxs-down-arrow'></i>
+                </li>
+            </a>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="header">
+            <div class="header-left">
+                Lịch sử chấm công: 
+                <span>40</span>
+            </div>
+            <div class="header-right">
+                <ul>
+                    <a href="#">
+                        <li>
+                            <i class='bx bx-plus'></i>
+                            Chấm công
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <i class='bx bx-calendar-alt'></i>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <i class='bx bx-search'></i>
+                        </li>
+                    </a>
+                    <li>
+                        <div class="pagination">
+                            <i class='bx bx-chevron-left'></i>
+                            <span>1 / 1</span>
+                            <i class='bx bx-chevron-right'></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- table 12 row -->
+        <div class="table-container">
+            <table>
+                <tr class="upcase">
+                    <td>Ngày</td>
+                    <td>trụ sở</td>
+                    <td>Ca</td>
+                    <td>Thời gian</td>
+                    <td>thời lượng</td>
+                    <td>hệ số</td>
+                    <td>ot</td>
+                    <td>vào trễ (cp)</td>
+                    <td>ra sớm (cp)</td>
+                    <td>Trạng thái</td>
+                    <td>địa chỉ ip</td>
+                </tr>
+                <tr>
+                    <td>09/02</td>
+                    <td>Teamcrop</td>
+                    <td class="small-text">
+                        <span class="status status-warning">
+                            Ca sáng
+                        </span>
+                        09:20 - 12:30
+                    </td>
+                    <td>09:20 - 12:30</td>
+                    <td>3h 30m</td>
+                    <td>1</td>
+                    <td>
+                        <input type="checkbox" name="ot" checked>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="tre-cp">
+                    </td>
+                    <td>
+                        <input type="checkbox" name="som-cp">
+                    </td>
+                    <td>
+                        <p>
+                            <i class='icon-success bx bxs-circle'></i>
+                            Đã xác nhận
+                        </p>
+                        <span class="gray-text">Huỳnh văn sự</span>
+                    </td>
+                    <td>112.212.444.555</td>
+                </tr>
+                <tr>
+                    <td>09/02</td>
+                    <td>Teamcrop</td>
+                    <td class="small-text">
+                        <span class="status status-success">
+                            Ca chiều
+                        </span>
+                        13:20 - 15:30
+                    </td>
+                    <td>13:20 - 15:30</td>
+                    <td>3h 30m</td>
+                    <td>1</td>
+                    <td>
+                        <input type="checkbox" name="ot">
+                    </td>
+                    <td>
+                        <input type="checkbox" name="tre-cp">
+                    </td>
+                    <td>
+                        <input type="checkbox" name="som-cp">
+                    </td>
+                    <td>
+                        <i class='icon-info bx bxs-circle'></i>
+                        Hoàn thành
+                    </td>
+                    <td>112.212.444.555</td>
+                </tr>
+                <tr>
+                    <td>09/02</td>
+                    <td>Teamcrop</td>
+                    <td class="small-text">
+                        <span class="status status-warning">
+                            Ca sáng
+                        </span>
+                        09:20 - 12:30
+                    </td>
+                    <td>09:20 - 12:30</td>
+                    <td>3h 30m</td>
+                    <td>1</td>
+                    <td>
+                        <input type="checkbox" name="ot" checked>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="tre-cp">
+                    </td>
+                    <td>
+                        <input type="checkbox" name="som-cp">
+                    </td>
+                    <td>
+                        <p>
+                            <i class='icon-success bx bxs-circle'></i>
+                            Đã xác nhận
+                        </p>
+                        <span class="gray-text">Huỳnh văn sự</span>
+                    </td>
+                    <td>112.212.444.555</td>
+                </tr>
+                <tr>
+                    <td>09/02</td>
+                    <td>Teamcrop</td>
+                    <td class="small-text">
+                        <span class="status status-success">
+                            Ca chiều
+                        </span>
+                        13:20 - 15:30
+                    </td>
+                    <td>13:20 - 15:30</td>
+                    <td>3h 30m</td>
+                    <td>1</td>
+                    <td>
+                        <input type="checkbox" name="ot">
+                    </td>
+                    <td>
+                        <input type="checkbox" name="tre-cp">
+                    </td>
+                    <td>
+                        <input type="checkbox" name="som-cp">
+                    </td>
+                    <td>
+                        <i class='icon-info bx bxs-circle'></i>
+                        Hoàn thành
+                    </td>
+                    <td>112.212.444.555</td>
+                </tr>
+                <tr>
+                    <td>09/02</td>
+                    <td>Teamcrop</td>
+                    <td class="small-text">
+                        <span class="status status-warning">
+                            Ca sáng
+                        </span>
+                        09:20 - 12:30
+                    </td>
+                    <td>09:20 - 12:30</td>
+                    <td>3h 30m</td>
+                    <td>1</td>
+                    <td>
+                        <input type="checkbox" name="ot" checked>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="tre-cp">
+                    </td>
+                    <td>
+                        <input type="checkbox" name="som-cp">
+                    </td>
+                    <td>
+                        <p>
+                            <i class='icon-success bx bxs-circle'></i>
+                            Đã xác nhận
+                        </p>
+                        <span class="gray-text">Huỳnh văn sự</span>
+                    </td>
+                    <td>112.212.444.555</td>
+                </tr>
+                <tr>
+                    <td>09/02</td>
+                    <td>Teamcrop</td>
+                    <td class="small-text">
+                        <span class="status status-success">
+                            Ca chiều
+                        </span>
+                        13:20 - 15:30
+                    </td>
+                    <td>13:20 - 15:30</td>
+                    <td>3h 30m</td>
+                    <td>1</td>
+                    <td>
+                        <input type="checkbox" name="ot">
+                    </td>
+                    <td>
+                        <input type="checkbox" name="tre-cp">
+                    </td>
+                    <td>
+                        <input type="checkbox" name="som-cp">
+                    </td>
+                    <td>
+                        <i class='icon-info bx bxs-circle'></i>
+                        Hoàn thành
+                    </td>
+                    <td>112.212.444.555</td>
+                </tr>
+                <tr>
+                    <td>09/02</td>
+                    <td>Teamcrop</td>
+                    <td class="small-text">
+                        <span class="status status-warning">
+                            Ca sáng
+                        </span>
+                        09:20 - 12:30
+                    </td>
+                    <td>09:20 - 12:30</td>
+                    <td>3h 30m</td>
+                    <td>1</td>
+                    <td>
+                        <input type="checkbox" name="ot" checked>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="tre-cp">
+                    </td>
+                    <td>
+                        <input type="checkbox" name="som-cp">
+                    </td>
+                    <td>
+                        <p>
+                            <i class='icon-success bx bxs-circle'></i>
+                            Đã xác nhận
+                        </p>
+                        <span class="gray-text">Huỳnh văn sự</span>
+                    </td>
+                    <td>112.212.444.555</td>
+                </tr>
+                <tr>
+                    <td>09/02</td>
+                    <td>Teamcrop</td>
+                    <td class="small-text">
+                        <span class="status status-success">
+                            Ca chiều
+                        </span>
+                        13:20 - 15:30
+                    </td>
+                    <td>13:20 - 15:30</td>
+                    <td>3h 30m</td>
+                    <td>1</td>
+                    <td>
+                        <input type="checkbox" name="ot">
+                    </td>
+                    <td>
+                        <input type="checkbox" name="tre-cp">
+                    </td>
+                    <td>
+                        <input type="checkbox" name="som-cp">
+                    </td>
+                    <td>
+                        <i class='icon-info bx bxs-circle'></i>
+                        Hoàn thành
+                    </td>
+                    <td>112.212.444.555</td>
+                </tr>
+                <tr>
+                    <td>09/02</td>
+                    <td>Teamcrop</td>
+                    <td class="small-text">
+                        <span class="status status-warning">
+                            Ca sáng
+                        </span>
+                        09:20 - 12:30
+                    </td>
+                    <td>09:20 - 12:30</td>
+                    <td>3h 30m</td>
+                    <td>1</td>
+                    <td>
+                        <input type="checkbox" name="ot" checked>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="tre-cp">
+                    </td>
+                    <td>
+                        <input type="checkbox" name="som-cp">
+                    </td>
+                    <td>
+                        <p>
+                            <i class='icon-success bx bxs-circle'></i>
+                            Đã xác nhận
+                        </p>
+                        <span class="gray-text">Huỳnh văn sự</span>
+                    </td>
+                    <td>112.212.444.555</td>
+                </tr>
+                <tr>
+                    <td>09/02</td>
+                    <td>Teamcrop</td>
+                    <td class="small-text">
+                        <span class="status status-success">
+                            Ca chiều
+                        </span>
+                        13:20 - 15:30
+                    </td>
+                    <td>13:20 - 15:30</td>
+                    <td>3h 30m</td>
+                    <td>1</td>
+                    <td>
+                        <input type="checkbox" name="ot">
+                    </td>
+                    <td>
+                        <input type="checkbox" name="tre-cp">
+                    </td>
+                    <td>
+                        <input type="checkbox" name="som-cp">
+                    </td>
+                    <td>
+                        <i class='icon-info bx bxs-circle'></i>
+                        Hoàn thành
+                    </td>
+                    <td>112.212.444.555</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>

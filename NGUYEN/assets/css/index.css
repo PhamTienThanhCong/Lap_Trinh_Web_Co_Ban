@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.2s all ease-in-out;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* header start */
+
+header ul{
+    list-style: none;
+    display: flex;
+}
+
+header{
+    background: rgb(24, 177, 144);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul a{
+    color: white;
+    font-size: 14px;
+    padding: 15px 15px;
+}
+
+header ul a:hover{
+    background: rgb(10, 129, 103);
+}
+
+.active{
+    background: rgb(10, 129, 103);
+}
+
+.icon{
+    font-size: 8px;
+}
+
+.big-icon{
+    font-size: 15px;
+    transform: scale(1.5);
+}
+
+/* header end */
+
+/* start container */
+
+.container{
+    width: 100%;
+}
+
+.header{
+    background-color: rgba(217, 228, 238, 0.384);
+    width: 100%;
+    display: flex;
+    margin-top: 47px;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.header .header-left{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header .header-left span{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 5px;
+    color: rgb(85, 85, 85);
+}
+
+.header .header-right{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header-right ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header-right ul a{
+    padding: 15px 15px;
+    height: 100%;
+}
+
+.header-right ul a:hover{
+    background-color: rgba(217, 228, 238, 0.562);
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 130px;
+    background-color: rgba(217, 228, 238, 0.849);
+    padding: 15px 0;
+}
+
+/* icon left */
+.bx-chevron-left{
+    font-size: 20px;
+    color: rgb(85, 85, 85);
+}
+
+/* icon right */
+.bx-chevron-right{
+    font-size: 20px;
+    color: rgb(85, 85, 85);
+}
+
+/* table */
+
+.table-container{
+    width: 100%;
+    padding: 0 10px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr{
+    border-bottom: 1px solid rgb(217, 228, 238);
+}
+
+.upcase td{
+    text-transform: uppercase;
+    color: rgb(85, 85, 85);
+}
+
+table tr td{
+    padding: 15px 10px;
+    font-size: 14px;
+}
+
+.small-text{
+    font-size: 12px;
+}
+
+.status{
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid rgb(187, 187, 14);
+    color: rgb(187, 187, 14);
+    margin-right: 5px;
+}
+
+.status-success{
+    border: 1px solid rgb(14, 187, 28);
+    color: rgb(14, 187, 28);
+}
+
+.icon-info{
+    font-size: 13px;
+    color: rgb(47, 10, 209);
+}
+
+.icon-success{
+    font-size: 13px;
+    color: rgb(14, 187, 28);
+}
+
+.gray-text{
+    color: rgba(85, 85, 85, 0.76);
+}

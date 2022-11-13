@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial';
+}
+
+a{
+    text-decoration: none;
+    color: rgb(66, 63, 63);
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.logo-img{
+    width: 100%;
+    height: 60px;
+}
+
+.logo-img img{
+    height: 100%;
+    width: auto;
+    padding-left: 100px;
+}
+
+.content-header{
+    width: 100%;
+    background-color: rgb(165, 1, 1);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.content-header ul{
+    list-style: none;
+    display: flex;
+}
+
+.content-header ul li{
+    padding: 0 20px;
+    border-right: 2px solid #fff;    
+}
+
+.content-header ul li:first-child{
+    padding-left: 0;
+}
+
+.content-header ul li:last-child{
+    border-right: none;
+}
+
+.content-header ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.content-header ul li a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+/* search with a icon search in input */
+.search{
+    position: relative;
+}
+
+.search input{
+    /* width: 300px; */
+    border: none;
+    padding: 5px 10px;
+    font-size: 13px;
+    background-color: #fff;
+}
+
+.search i{
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    /* padding: 10px; */
+    font-size: 20px;
+    color: black;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 0 100px;
+    padding-top: 120px;
+}
+
+.top-news{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hot-news{
+    width: 77%;
+}
+
+.bo-phieu{
+    width: 23%;
+    background-color: rgb(247, 208, 215);
+}
+
+.tag-new {
+    padding: 15px 0;
+}
+
+.tag-new a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(66, 63, 63);
+    padding: 5px;
+    background-color: rgb(245, 240, 240);
+}
+
+.hot-news .news{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hot-news .news .hot-new-privew{
+    width: 75%;
+}
+
+.hot-news .news .hot-new-privew img{
+    width: 100%
+}
+
+.hot-news .news .hot-new-privew h2{
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.hot-news .news .hot-new-privew h2 a{
+    color: black;
+}
+
+.hot-news .news .hot-new-privew p{
+    font-size: 14px;
+    color: rgb(66, 63, 63);
+}
+.list-news{
+    width: 35%;
+    padding: 0 30px;
+}
+
+.list-news li{
+    margin-bottom: 10px;
+}
+
+.bo-phieu{
+    padding: 20px;
+    padding-top: 20px;
+}
+
+.choice-radio{
+    margin: 15px 0px;
+    display: flex;
+}
+
+.choice-radio input{
+    margin-right: 5px;
+}
+
+.btn {
+    background-color: rgb(165, 1, 1);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 10px 0px;
+    width: 48%;
+}
+
+.btn-view{
+    background-color: transparent;
+    border: 2px solid rgb(53, 48, 48);
+    color: rgb(32, 31, 31);
+}
+
+.btn-view:hover{
+    background-color: rgb(53, 48, 48);
+    color: #fff;
+}
+
+.btn-choice:hover{
+    background-color: rgb(114, 9, 9);
+}
+
+.btn-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-news-hot{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.title-hot{
+    font-size: 16px;
+    padding-left: 10px;
+    border-left: 5px solid rgb(165, 1, 1);
+    /* upcase */
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.list-top-new{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-top-new .top-new{
+    width: 18%;
+}
+
+.list-top-new .top-new .img-top-new{
+    width: 100%;
+    height: 100px;
+}
+
+.img-top-new img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.title-content li{
+    padding: 0;
+}
+
+.list-top-new{
+
+}
+
+.title-content li .title{
+    margin-top: 10px;
+}
+
+.title-content li .title span{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.title-content li .title a{
+    display: block;
+    font-weight: bold;
+}
+
+.list-img-new{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-img-new .top-new{
+    width: 23%;
+}
+
+.list-img-new .top-new .img-top-new{
+    width: 100%;
+    height: 150px;
+}
+.list-img-new .top-new .title-content .title a{
+    font-weight: bold;
+    font-size: 15px;
+}
+.list-img-new .top-new .title-content .title{
+    margin-top: 10px;
+}
+
+.top-imgs-hot{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: beige;
+}
+
+.title-hot a{
+    font-weight: normal;
+    /* un upcase */
+    text-transform: none;
+    margin-left: 20px;   
+}
+
+.hai-bai-bao{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(141, 137, 137);
+    margin-top: 20px;
+}
+
+.list-new-good{
+    width: 50%;
+}
+.list-new-good-2{
+    width: 49%;
+    border-left: 1px solid rgb(141, 137, 137);
+}
+
+.list-new-good .new{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(141, 137, 137);
+    padding-bottom: 15px;
+}
+
+.list-new-good .new:last-child{
+    border-bottom: none;
+}
+
+.list-new-good .new .img-new{
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.list-new-good .new .img-new img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.list-new-good .new .tilte-content{
+    width: calc(100% - 260px);
+}
+
+.list-new-good .new .tilte-content a{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.list-new-good .new .tilte-content p{
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+.list-new-good-2{
+    padding-left: 20px;
+}
+
+.list-new-good .new .tilte-content ul {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.list-tag-new{
+    margin-top: 20px;
+}
+
+.list-tag-new {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.list-tag-new a{
+    /* button */
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid rgb(141, 137, 137);
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiểm Tra Giữa Kì</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- start header -->
+    <header>
+        <div class="logo-img">
+            <img src="./imgs/logo.png" alt="">
+        </div>
+        <div class="content-header">
+            <ul>
+                <li>
+                    <a href="#">Thời Sự</a></li>
+                <li>
+                    <a href="#">Thế Giới</a></li>
+                <li>
+                    <a href="#">Thể Thao</a></li>
+                <li>
+                    <a href="#">Giáo dục</a></li>
+            </ul>
+            <!-- search with a icon search in input -->
+            <form action="/" method="get" class="search">
+                <input type="text" name="search" placeholder="Tìm Kiếm Tin Tức">
+                <i class='bx bx-search-alt-2'></i>
+            </form>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start content -->
+
+    <div class="container">
+        <div class="top-news">
+            <div class="hot-news">
+                <div class="tag-new">
+                    <a href="#">Kỳ họp thứ 4 Quốc Hội khóa XV</a>
+                    <a href="#">Giảm trừ thuế thu nhập cá nhân</a>
+                    <a href="#">Món quà tết quê nhà</a>
+                </div>
+                <div class="news">
+                    <div class="hot-new-privew">
+                        <img src="./imgs/lego.png" alt="">
+                        <h2>
+                            <a href="#">
+                                Tập đoàn Lego đang tìm kiếm nhà thiết kế đồ chơi mới tại Việt Nam
+                            </a>
+                        </h2>
+                        <p>
+                            Theo BBC News, tập đoàn Lego đang tìm kiếm nhà thiết kế đồ chơi mới tại Việt Nam.
+                            Vì vậy, các nhà thiết kế đồ chơi có thể đăng ký tham gia cuộc thi Lego Ideas
+                        </p>
+                    </div>
+                    <ul class="list-news">
+                        <li>
+                            <a href="#">Thúc đẩy các dự án kết nối giao thông đường bộ, đường sắt Việt Nam - Lào</a>
+                        </li>
+                        <li>
+                            <a href="#">Tổng Bí thư: 'Không được cậy có quyền, uốn thẳng thành cong'</a>
+                        </li>
+                        <li>
+                            <a href="#">Hậu Giang chấp thuận đầu tư hai khu đô thị gần 600 tỷ đồng</a>
+                        </li>
+                        <li>
+                            <a href="#">Doanh nghiệp bất động sản kiến nghị gì tại cuộc họp với lãnh đạo Chính phủ?</a>
+                        </li>
+                        <li>
+                            <a href="#">Lao động nước ngoài ở Nhật Bản dự kiến được tăng lương tối thiểu thêm 3,3%</a>
+                        </li>
+                        <li>
+                            <a href="#">Hậu Giang chấp thuận đầu tư hai khu đô thị gần 600 tỷ đồng</a>
+                        </li>
+                        <li>
+                            <a href="#">Doanh nghiệp bất động sản kiến nghị gì tại cuộc họp với lãnh đạo Chính phủ?</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <form action="#" method="post" class="bo-phieu">
+                <p>
+                    Chi phí chi tiêu tăng mạnh trong khi nhiều ngân sách bị giảm.
+                    Luật thuế thu nhập cá nhân có thể được giảm thuế.
+                    Theo bạn có cần sửa luật thuế thu nhập theo cá nhân theo hướng:
+                </p>
+                <div class="choice-radio">
+                    <input type="radio" name="vote" id="vote1" value="vote1" checked>
+                    <label for="vote1">Nâng mức giảm trừ gia cảnh lên đến 10 triệu đồng với người phụ thuộc</label>
+                </div>
+                <div class="choice-radio">
+                    <input type="radio" name="vote" id="vote2" value="vote2">
+                    <label for="vote2">Thu nhập phải trên 20 triệu đồng mới phải nộp thuế</label>
+                </div>
+                <div class="choice-radio">
+                    <input type="radio" name="vote" id="vote3" value="vote3">
+                    <label for="vote3">
+                        Thế thu nhập nên có ít nhất 4 bậc thuế với mức thuế tăng dần từ 5% đến 35%,
+                        ưu tiên cho người có thu nhập thấp
+                    </label>
+                </div>
+                <div class="choice-radio">
+                    <input type="radio" name="vote" id="vote4" value="vote4">
+                    <label for="vote4">Ý kiến khác</label>
+                </div>
+                <!-- button -->
+                <div class="btn-group">
+                    <button type="button" class="btn btn-view">Kết Quả</button>
+                    <button type="submit" class="btn btn-choice">Bỏ Phiếu</button>
+                </div>
+            </form>
+        </div>
+
+
+        <!-- Xem Nhiều -->
+
+        <div class="top-news-hot">
+            <h3 class="title-hot">Xem Nhiều</h3>
+            <ol class="list-top-new">
+                <div class="top-new">
+                    <div class="img-top-new">
+                        <img src="./imgs/lego.png" alt="">
+                    </div>
+                    <div class="title-content">
+                        <li>
+                            <div class="title">
+                                <span>Pháp luật</span>    
+                                <a href="#">Lego sẽ cho phép các nhà thiết kế đăng ký tham gia cuộc thi Lego Ideas</a>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+                <div class="top-new">
+                    <div class="img-top-new">
+                        <img src="./imgs/lego.png" alt="">
+                    </div>
+                    <div class="title-content">
+                        <li>
+                            <div class="title">
+                                <span>Pháp luật</span>    
+                                <a href="#">Lego sẽ cho phép các nhà thiết kế đăng ký tham gia cuộc thi Lego Ideas</a>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+                <div class="top-new">
+                    <div class="img-top-new">
+                        <img src="./imgs/lego.png" alt="">
+                    </div>
+                    <div class="title-content">
+                        <li>
+                            <div class="title">
+                                <span>Pháp luật</span>    
+                                <a href="#">Lego sẽ cho phép các nhà thiết kế đăng ký tham gia cuộc thi Lego Ideas</a>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+                <div class="top-new">
+                    <div class="img-top-new">
+                        <img src="./imgs/lego.png" alt="">
+                    </div>
+                    <div class="title-content">
+                        <li>
+                            <div class="title">
+                                <span>Pháp luật</span>    
+                                <a href="#">Lego sẽ cho phép các nhà thiết kế đăng ký tham gia cuộc thi Lego Ideas</a>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+                <div class="top-new">
+                    <div class="img-top-new">
+                        <img src="./imgs/lego.png" alt="">
+                    </div>
+                    <div class="title-content">
+                        <li>
+                            <div class="title">
+                                <span>Pháp luật</span>    
+                                <a href="#">Lego sẽ cho phép các nhà thiết kế đăng ký tham gia cuộc thi Lego Ideas</a>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+            </ol>
+        </div>
+
+        <!-- img -->
+
+        <div class="top-imgs-hot">
+            <h3 class="title-hot">
+                Ảnh
+                <a href="#">
+                    Megatory
+                </a>
+                <a href="#">
+                    Inforaphic
+                </a>
+            </h3>
+            <div class="list-img-new">
+                <div class="top-new">
+                    <div class="img-top-new">
+                        <img src="./imgs/oto.jpg" alt="">
+                    </div>
+                    <div class="title-content">
+                        <div class="title">    
+                            <a href="#">Mẫu xe ưa thích của người dân Việt Nam bán chạy nhất 2022<a>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-new">
+                    <div class="img-top-new">
+                        <img src="./imgs/oto.jpg" alt="">
+                    </div>
+                    <div class="title-content">
+                        <div class="title">    
+                            <a href="#">Mẫu xe ưa thích của người dân Việt Nam bán chạy nhất 2022<a>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-new">
+                    <div class="img-top-new">
+                        <img src="./imgs/oto.jpg" alt="">
+                    </div>
+                    <div class="title-content">
+                        <div class="title">    
+                            <a href="#">Mẫu xe ưa thích của người dân Việt Nam bán chạy nhất 2022<a>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-new">
+                    <div class="img-top-new">
+                        <img src="./imgs/oto.jpg" alt="">
+                    </div>
+                    <div class="title-content">
+                        <div class="title">    
+                            <a href="#">Mẫu xe ưa thích của người dân Việt Nam bán chạy nhất 2022<a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hai-bai-bao">
+            <ul class="list-new-good">
+                <h3 class="title-hot" style="display: bo">
+                    Tin mới
+                </h3>
+                <li class="new">
+                    <div class="img-new">
+                        <img src="./imgs/bongda.jpg" alt="">
+                    </div>
+                    <div class="tilte-content">
+                        <a href="#">
+                            Quang hải Không trở về nước thi đấu AFF cup, do lịch thi đấu của CLB
+                        </a>
+                        <p>
+                            Theo tờ báo chính thức của CLB, Quang Hải sẽ không tham gia AFF Cup 2020 do lịch thi đấu của CLB.
+                        </p>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Quang Hải không về nước tham dự AFF cup
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="new">
+                    <div class="img-new">
+                        <img src="./imgs/bongda.jpg" alt="">
+                    </div>
+                    <div class="tilte-content">
+                        <a href="#">
+                            Quang hải Không trở về nước thi đấu AFF cup, do lịch thi đấu của CLB
+                        </a>
+                        <p>
+                            Theo tờ báo chính thức của CLB, Quang Hải sẽ không tham gia AFF Cup 2020 do lịch thi đấu của CLB.
+                        </p>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Quang Hải không về nước tham dự AFF cup
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <ul class="list-new-good list-new-good-2">
+                <h3 class="title-hot" style="display: bo">
+                    Thế giới
+                    <a href="#">
+                        Bình luận
+                    </a>
+                    <a href="#">
+                        Kiều bào
+                    </a>
+                    <a href="#">
+                        Môn màu
+                    </a>
+                </h3>
+                <li class="new">
+                    <div class="img-new">
+                        <img src="./imgs/bongda.jpg" alt="">
+                    </div>
+                    <div class="tilte-content">
+                        <a href="#">
+                            Quang hải Không trở về nước thi đấu AFF cup, do lịch thi đấu của CLB
+                        </a>
+                        <p>
+                            Theo tờ báo chính thức của CLB, Quang Hải sẽ không tham gia AFF Cup 2020 do lịch thi đấu của CLB.
+                        </p>
+                    </div>
+                </li>
+                <li class="new">
+                    <div class="img-new">
+                        <img src="./imgs/bongda.jpg" alt="">
+                    </div>
+                    <div class="tilte-content">
+                        <a href="#">
+                            Quang hải Không trở về nước thi đấu AFF cup, do lịch thi đấu của CLB
+                        </a>
+                        <p>
+                            Theo tờ báo chính thức của CLB, Quang Hải sẽ không tham gia AFF Cup 2020 do lịch thi đấu của CLB.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="list-tag-new">
+            <a href="#">Bạn đọc</a>
+            <a href="#">Bạn đọc</a>
+            <a href="#">Bạn đọc</a>
+            <a href="#">Bạn đọc</a>
+            <a href="#">Bạn đọc</a>
+            <a href="#">Bạn đọc</a>
+            <a href="#">Bạn đọc</a>
+    
+            <a href="#">Bạn đọc</a>
+            <a href="#">Bạn đọc</a>
+            <a href="#">Bạn đọc</a>
+            <a href="#">Bạn đọc</a>
+            <a href="#">Bạn đọc</a>
+            <a href="#">Bạn đọc</a>
+            <a href="#">Bạn đọc</a>
+            <a href="#">Em chào cô ạ</a>
+            <a href="#">Em chào cô ạ</a>
+            <a href="#">Em chào cô ạ</a>
+            <a href="#">Em chào cô ạ</a>
+            <a href="#">Em chào cô ạ</a>
+            <a href="#">Em chào cô ạ</a>
+            <a href="#">Em chào cô ạ</a>
+        </div>
+
+    </div>
+
+    <!-- end content -->
+
+</body>
+</html>
