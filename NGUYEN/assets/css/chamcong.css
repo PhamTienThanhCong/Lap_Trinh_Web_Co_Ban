@@ -84,3 +84,109 @@ header ul a:hover{
 .header-left span{
     font-size: 16px;
 }
+
+/* end header */
+
+/* start content */
+.content-form{
+    width: 100%;
+    padding: 10px;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgb(217, 228, 238);
+    padding-bottom: 25px;
+    margin-bottom: 5px;
+}
+
+.content .content-left{
+    width: 27%;
+}
+
+.content .content-left p{
+    padding: 15px 0;
+    color: rgb(56, 58, 57);
+}
+
+
+.content .content-left .content-left-item{
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(217, 228, 238);
+}
+
+.content-right{
+    width: 73%;
+    padding: 0 20px;
+}
+
+#select-tru-so{
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    -webkit-appearance: none;
+    display: block;
+    width: 50%;
+}
+
+#select-tru-so option{
+    font-weight: normal;
+    padding: 15px 0;
+}
+
+#time{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    color: rgb(56, 58, 57);
+}
+
+.form-group{
+    width: 100%;
+}
+
+.lable-description{
+    display: block;
+    font-size: 15px;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+#description{
+    width: 100%;
+    max-width: 400px;
+    border-color: #ccc;
+    /* resize only height */
+    resize: vertical;
+    outline: none;
+    padding: 5px;
+}
+
+#select-file{
+    width: 100%;
+    max-width: 400px;
+    border: none;
+    /* hidden input file */
+    opacity: 0;
+}
+
+.btn{
+    padding: 5px 13px;
+    color: white;
+    background-color: green;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-gray{
+    background-color: rgb(92, 91, 91);
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}

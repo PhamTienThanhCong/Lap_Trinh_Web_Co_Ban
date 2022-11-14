@@ -64,9 +64,46 @@
                 <span>Chấm công</span>
             </div>
         </div>
-        <div class="content">
-            
-        </div>
+        <form class="content-form" action="" method="post" enctype="multipart/form-data">
+            <div class="content">
+                <div class="content-left">
+                    <b>
+                        Nhập thông tin chấm công
+                    </b>
+                    <br>
+                    <p>
+                        Nhập các thông tin để tiến hành chấm công vào - ra hệ thống
+                    </p>
+                </div>
+                <div class="content-right">
+                    <select name="tru-so" id="select-tru-so">
+                        <option disabled selected>Trụ sở *</option>
+                        <option value="1">Spiral</option>
+                        <option value="2">Teamcrop</option>
+                    </select>
+                    <div id="time">
+                        Ca 2 (13:00 - 17:00)
+                    </div>
+                    <div class="form-group">
+                        <label class="lable-description" for="description">Ghi chú</label>
+                        <textarea name="description" id="description" cols="30" rows="4"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class="lable-description" for="description">Hình chụp webcam / camera</label>
+                        <input type="file" id="select-file">
+                        <label for="select-file" class="btn btn-gray">Chụp hình</label>
+                    </div>
+                </div>
+            </div>
+            <div class="action">
+                <p>
+                    * Bắt buộc
+                </p>
+                <button class="btn">
+                    Chấm công ra
+                </button>
+            </div>
+        </form>
     </div>
 
 </body>
