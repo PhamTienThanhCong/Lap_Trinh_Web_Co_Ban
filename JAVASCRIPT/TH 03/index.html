@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chọn xe</title>
+    <title>Chọn mèo</title>
     <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <div class="container">
         <h1>Bán mèo</h1>
         <div class="main-img">
-            <img id="img-preview" src="./imgs/01.jpg" alt="">
+            <img id="img-preview" height="300px" src="./imgs/01.jpg" alt="">
         </div>
         <ul class="list-img">
             <li>
@@ -30,6 +31,25 @@
                 <img class="pick-cat" src="./imgs/05.jpg" alt="">
             </li>
         </ul>
+    </div>
+    <div class="model" id="myModal">
+        <i class='bx bx-chevron-left btn-left'></i>
+        <img id="img-model" src="./imgs/01.jpg" alt="">
+        <i class='bx bx-chevron-right btn-right'></i>
+        <!-- icon x -->
+        <i class='bx bx-x close'></i>
+    </div>
+    <div class="message">
+        <div class="title">
+            <i class='bx bx-message-detail'></i>
+            Chat with us
+        </div>
+        <div id="content-chat">
+        </div>
+        <form class="content">
+            <textarea name="" id="message" rows="2" placeholder="chat với cũng tui"></textarea>
+            <button type="button" id="chat">Chat</button>
+        </form>
     </div>
 </body>
 <script src="./function.js"></script>
